@@ -1,0 +1,30 @@
+.lang-grid {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  flex-wrap: wrap;
+}
+
+.lang-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem;
+  min-width: 250px;
+}
+
+.lang-info {
+  text-align: center;
+  margin-top: -1rem;
+}
+
+.lang-info h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.25rem;
+  color: var(--text-primary);
+}
+
+.lang-info p {
+  color: var(--text-secondary);
+  font-weight: 500;
+}
